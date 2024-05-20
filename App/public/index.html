@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arduino LED Control</title>
+</head>
+<body>
+  <h1>Remote Traffic Light Control</h1>
+  <form>
+    <label for="red" class="button">
+      <input type="radio" id="red" name="color" value="red" onclick="toggleLed('red')"> Red
+    </label><br>
+    
+    <label for="green" class="button">
+      <input type="radio" id="green" name="color" value="green" onclick="toggleLed('green')"> Green
+    </label><br>
+    
+    <label for="blue" class="button">
+      <input type="radio" id="blue" name="color" value="blue" onclick="toggleLed('blue')"> Blue
+    </label><br>
+  </form>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+  <script>
+
+  const firebaseConfig = {
+  apiKey: "AIzaSyBu4gHtqzeB6853VMHEMjaVxqoyJF5G-Xw",
+  authDomain: "automated-rural-traffic.firebaseapp.com",
+  databaseURL: "https://automated-rural-traffic-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "automated-rural-traffic",
+  storageBucket: "automated-rural-traffic.appspot.com",
+  messagingSenderId: "468670245155",
+  appId: "1:468670245155:web:698a79883f9c8d4e3c4496",
+  measurementId: "G-E5198FF2JM"
+};
+
+// Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+  function toggleLed(color) {
+    firebase.database().ref("color/").set({
+        color: color
+      });
+}
+
+    </script>
+</body>
+</html>

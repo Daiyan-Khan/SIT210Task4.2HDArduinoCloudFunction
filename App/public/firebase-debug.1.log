@@ -1,0 +1,102 @@
+[debug] [2024-04-15T08:51:41.645Z] ----------------------------------------------------------------------
+[debug] [2024-04-15T08:51:41.648Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Daiyan Khan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-04-15T08:51:41.648Z] CLI Version:   13.7.2
+[debug] [2024-04-15T08:51:41.648Z] Platform:      win32
+[debug] [2024-04-15T08:51:41.649Z] Node Version:  v20.12.2
+[debug] [2024-04-15T08:51:41.649Z] Time:          Mon Apr 15 2024 18:51:41 GMT+1000 (Australian Eastern Standard Time)
+[debug] [2024-04-15T08:51:41.649Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-15T08:51:41.784Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-15T08:51:41.785Z] > authorizing via signed-in user (iamdaiyankhan@gmail.com)
+[debug] [2024-04-15T08:51:41.785Z] [iam] checking project automated-rural-traffic for permissions ["firebase.projects.get"]
+[debug] [2024-04-15T08:51:41.787Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions [none]
+[debug] [2024-04-15T08:51:41.787Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions x-goog-quota-user=projects/automated-rural-traffic
+[debug] [2024-04-15T08:51:41.787Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-04-15T08:51:42.259Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions 200
+[debug] [2024-04-15T08:51:42.260Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-04-15T08:51:42.261Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic [none]
+[debug] [2024-04-15T08:51:42.890Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic 200
+[debug] [2024-04-15T08:51:42.890Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic {"projectId":"automated-rural-traffic","projectNumber":"468670245155","displayName":"Automated Rural Traffic","name":"projects/automated-rural-traffic","resources":{"hostingSite":"automated-rural-traffic","realtimeDatabaseInstance":"automated-rural-traffic-default-rtdb"},"state":"ACTIVE","etag":"1_6cfbc985-6d0a-4c96-813c-428f1cb34918"}
+[info] 
+[info] === Serving from 'C:\Users\Daiyan Khan\OneDrive\Desktop\Daiyan\STUDY\Deakin\Year 2 Trim 1\SIT210 EMBEDDED SYSTEMS\4.2HD\App'...
+[info] 
+[debug] [2024-04-15T08:51:42.897Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/automated-rural-traffic/sites 
+[debug] [2024-04-15T08:51:44.306Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/automated-rural-traffic/sites 200
+[debug] [2024-04-15T08:51:44.306Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/automated-rural-traffic/sites {"sites":[{"name":"projects/automated-rural-traffic/sites/automated-rural-traffic","defaultUrl":"https://automated-rural-traffic.web.app","appId":"1:468670245155:web:698a79883f9c8d4e3c4496","type":"DEFAULT_SITE"}]}
+[debug] [2024-04-15T08:51:44.307Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic/webApps/1:468670245155:web:698a79883f9c8d4e3c4496/config [none]
+[debug] [2024-04-15T08:51:44.913Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic/webApps/1:468670245155:web:698a79883f9c8d4e3c4496/config 200
+[debug] [2024-04-15T08:51:44.913Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic/webApps/1:468670245155:web:698a79883f9c8d4e3c4496/config {"projectId":"automated-rural-traffic","appId":"1:468670245155:web:698a79883f9c8d4e3c4496","databaseURL":"https://automated-rural-traffic-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"automated-rural-traffic.appspot.com","apiKey":"AIzaSyBu4gHtqzeB6853VMHEMjaVxqoyJF5G-Xw","authDomain":"automated-rural-traffic.firebaseapp.com","messagingSenderId":"468670245155","measurementId":"G-E5198FF2JM"}
+[debug] [2024-04-15T08:51:44.922Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic [none]
+[debug] [2024-04-15T08:51:45.332Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic 200
+[debug] [2024-04-15T08:51:45.333Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic {"projectId":"automated-rural-traffic","projectNumber":"468670245155","displayName":"Automated Rural Traffic","name":"projects/automated-rural-traffic","resources":{"hostingSite":"automated-rural-traffic","realtimeDatabaseInstance":"automated-rural-traffic-default-rtdb"},"state":"ACTIVE","etag":"1_6cfbc985-6d0a-4c96-813c-428f1cb34918"}
+[info] i  hosting[automated-rural-traffic]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[automated-rural-traffic]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [15/Apr/2024:08:51:49 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [15/Apr/2024:08:51:49 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0\""}}
+[info] i  hosting: ::1 - - [15/Apr/2024:08:51:49 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://localhost:5002/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [15/Apr/2024:08:51:49 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://localhost:5002/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0\""}}
+[debug] [2024-04-15T09:27:38.395Z] ----------------------------------------------------------------------
+[debug] [2024-04-15T09:27:38.396Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Daiyan Khan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-04-15T09:27:38.397Z] CLI Version:   13.7.2
+[debug] [2024-04-15T09:27:38.397Z] Platform:      win32
+[debug] [2024-04-15T09:27:38.397Z] Node Version:  v20.12.2
+[debug] [2024-04-15T09:27:38.397Z] Time:          Mon Apr 15 2024 19:27:38 GMT+1000 (Australian Eastern Standard Time)
+[debug] [2024-04-15T09:27:38.397Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-15T09:27:38.474Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-15T09:27:38.474Z] > authorizing via signed-in user (iamdaiyankhan@gmail.com)
+[debug] [2024-04-15T09:27:38.474Z] [iam] checking project automated-rural-traffic for permissions ["firebase.projects.get"]
+[debug] [2024-04-15T09:27:38.476Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions [none]
+[debug] [2024-04-15T09:27:38.476Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions x-goog-quota-user=projects/automated-rural-traffic
+[debug] [2024-04-15T09:27:38.476Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-04-15T09:27:39.588Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions 200
+[debug] [2024-04-15T09:27:39.589Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-04-15T09:27:39.589Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic [none]
+[debug] [2024-04-15T09:27:40.196Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic 200
+[debug] [2024-04-15T09:27:40.196Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic {"projectId":"automated-rural-traffic","projectNumber":"468670245155","displayName":"Automated Rural Traffic","name":"projects/automated-rural-traffic","resources":{"hostingSite":"automated-rural-traffic","realtimeDatabaseInstance":"automated-rural-traffic-default-rtdb"},"state":"ACTIVE","etag":"1_6cfbc985-6d0a-4c96-813c-428f1cb34918"}
+[info] 
+[info] === Serving from 'C:\Users\Daiyan Khan\OneDrive\Desktop\Daiyan\STUDY\Deakin\Year 2 Trim 1\SIT210 EMBEDDED SYSTEMS\4.2HD\App'...
+[info] 
+[debug] [2024-04-15T09:27:40.199Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/automated-rural-traffic/sites 
+[debug] [2024-04-15T09:27:41.562Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/automated-rural-traffic/sites 200
+[debug] [2024-04-15T09:27:41.562Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/automated-rural-traffic/sites {"sites":[{"name":"projects/automated-rural-traffic/sites/automated-rural-traffic","defaultUrl":"https://automated-rural-traffic.web.app","appId":"1:468670245155:web:698a79883f9c8d4e3c4496","type":"DEFAULT_SITE"}]}
+[debug] [2024-04-15T09:27:41.562Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic/webApps/1:468670245155:web:698a79883f9c8d4e3c4496/config [none]
+[debug] [2024-04-15T09:27:42.115Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic/webApps/1:468670245155:web:698a79883f9c8d4e3c4496/config 200
+[debug] [2024-04-15T09:27:42.115Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic/webApps/1:468670245155:web:698a79883f9c8d4e3c4496/config {"projectId":"automated-rural-traffic","appId":"1:468670245155:web:698a79883f9c8d4e3c4496","databaseURL":"https://automated-rural-traffic-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"automated-rural-traffic.appspot.com","apiKey":"AIzaSyBu4gHtqzeB6853VMHEMjaVxqoyJF5G-Xw","authDomain":"automated-rural-traffic.firebaseapp.com","messagingSenderId":"468670245155","measurementId":"G-E5198FF2JM"}
+[debug] [2024-04-15T09:27:42.121Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic [none]
+[debug] [2024-04-15T09:27:42.560Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic 200
+[debug] [2024-04-15T09:27:42.560Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic {"projectId":"automated-rural-traffic","projectNumber":"468670245155","displayName":"Automated Rural Traffic","name":"projects/automated-rural-traffic","resources":{"hostingSite":"automated-rural-traffic","realtimeDatabaseInstance":"automated-rural-traffic-default-rtdb"},"state":"ACTIVE","etag":"1_6cfbc985-6d0a-4c96-813c-428f1cb34918"}
+[info] i  hosting[automated-rural-traffic]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[automated-rural-traffic]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [15/Apr/2024:09:27:45 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [15/Apr/2024:09:27:45 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0\""}}
+[debug] [2024-04-16T08:58:09.196Z] ----------------------------------------------------------------------
+[debug] [2024-04-16T08:58:09.200Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Daiyan Khan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2024-04-16T08:58:09.200Z] CLI Version:   13.7.2
+[debug] [2024-04-16T08:58:09.201Z] Platform:      win32
+[debug] [2024-04-16T08:58:09.201Z] Node Version:  v20.12.2
+[debug] [2024-04-16T08:58:09.201Z] Time:          Tue Apr 16 2024 18:58:09 GMT+1000 (Australian Eastern Standard Time)
+[debug] [2024-04-16T08:58:09.201Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-16T08:58:09.394Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-16T08:58:09.396Z] > authorizing via signed-in user (iamdaiyankhan@gmail.com)
+[debug] [2024-04-16T08:58:09.396Z] [iam] checking project automated-rural-traffic for permissions ["firebase.projects.get"]
+[debug] [2024-04-16T08:58:09.403Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions [none]
+[debug] [2024-04-16T08:58:09.404Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions x-goog-quota-user=projects/automated-rural-traffic
+[debug] [2024-04-16T08:58:09.405Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-04-16T08:58:10.525Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions 200
+[debug] [2024-04-16T08:58:10.525Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/automated-rural-traffic:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-04-16T08:58:10.526Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic [none]
+[debug] [2024-04-16T08:58:11.042Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic 200
+[debug] [2024-04-16T08:58:11.042Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic {"projectId":"automated-rural-traffic","projectNumber":"468670245155","displayName":"Automated Rural Traffic","name":"projects/automated-rural-traffic","resources":{"hostingSite":"automated-rural-traffic","realtimeDatabaseInstance":"automated-rural-traffic-default-rtdb"},"state":"ACTIVE","etag":"1_6cfbc985-6d0a-4c96-813c-428f1cb34918"}
+[info] 
+[info] === Serving from 'C:\Users\Daiyan Khan\OneDrive\Desktop\Daiyan\STUDY\Deakin\Year 2 Trim 1\SIT210 EMBEDDED SYSTEMS\4.2HD\App'...
+[info] 
+[debug] [2024-04-16T08:58:11.049Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/automated-rural-traffic/sites 
+[debug] [2024-04-16T08:58:12.323Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/automated-rural-traffic/sites 200
+[debug] [2024-04-16T08:58:12.323Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/automated-rural-traffic/sites {"sites":[{"name":"projects/automated-rural-traffic/sites/automated-rural-traffic","defaultUrl":"https://automated-rural-traffic.web.app","appId":"1:468670245155:web:698a79883f9c8d4e3c4496","type":"DEFAULT_SITE"}]}
+[debug] [2024-04-16T08:58:12.323Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic/webApps/1:468670245155:web:698a79883f9c8d4e3c4496/config [none]
+[debug] [2024-04-16T08:58:12.875Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic/webApps/1:468670245155:web:698a79883f9c8d4e3c4496/config 200
+[debug] [2024-04-16T08:58:12.876Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic/webApps/1:468670245155:web:698a79883f9c8d4e3c4496/config {"projectId":"automated-rural-traffic","appId":"1:468670245155:web:698a79883f9c8d4e3c4496","databaseURL":"https://automated-rural-traffic-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"automated-rural-traffic.appspot.com","apiKey":"AIzaSyBu4gHtqzeB6853VMHEMjaVxqoyJF5G-Xw","authDomain":"automated-rural-traffic.firebaseapp.com","messagingSenderId":"468670245155","measurementId":"G-E5198FF2JM"}
+[debug] [2024-04-16T08:58:12.884Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic [none]
+[debug] [2024-04-16T08:58:13.251Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic 200
+[debug] [2024-04-16T08:58:13.251Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/automated-rural-traffic {"projectId":"automated-rural-traffic","projectNumber":"468670245155","displayName":"Automated Rural Traffic","name":"projects/automated-rural-traffic","resources":{"hostingSite":"automated-rural-traffic","realtimeDatabaseInstance":"automated-rural-traffic-default-rtdb"},"state":"ACTIVE","etag":"1_6cfbc985-6d0a-4c96-813c-428f1cb34918"}
+[info] i  hosting[automated-rural-traffic]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[automated-rural-traffic]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
